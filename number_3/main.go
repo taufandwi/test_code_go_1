@@ -1,8 +1,8 @@
 package main
 
 type Users struct {
-	Name String `json:"name"`
-	Email String `json:"email"`
+	Name string `json:"name"`
+	Email string `json:"email"`
 	Age int64 `json:"age"`
 }
 
