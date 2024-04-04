@@ -28,6 +28,8 @@ func main () {
 
 	userJson, _ := json.Marshal(user)
 	err = ioutil.WriteFile("test3.json", userJson, 0644)
-
+	if err != nil {
+		panic(err)
+	}
 
 }
